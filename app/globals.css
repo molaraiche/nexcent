@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {}
+@layer utilities {
+  .btnStyle {
+    @apply font-medium leading-5 text-sm flex items-center gap-2
+  }
+}

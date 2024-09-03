@@ -7,7 +7,16 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extend: {
+      screens: {
+        xsm: '275px',
+      },
+    },
     colors: {
+      text: {
+        900: '#18191F',
+        300: '#D9DBE1',
+      },
       neutral: {
         black: '#263238',
         D_Grey: '#4D4D4D',
@@ -17,7 +26,7 @@ const config: Config = {
         Silver: '#F5F7FA',
         white: '#fff',
       },
-      primary: '#28CB8B',
+      primary: '#4CAF4F',
       secondary: '#263238',
       info: '#2194f3',
       shade: {
