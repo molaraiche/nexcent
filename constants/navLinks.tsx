@@ -6,27 +6,27 @@ export const navLinks = [
   },
   {
     id: 2,
-    path: 'service',
+    path: '#service',
     label: 'Service',
   },
   {
     id: 3,
-    path: 'feature',
+    path: '#feature',
     label: 'Feature',
   },
   {
     id: 4,
-    path: 'product',
+    path: '#product',
     label: 'Product',
   },
   {
     id: 5,
-    path: 'testimonial',
+    path: '#testimonial',
     label: 'Testimonial',
   },
   {
     id: 6,
-    path: 'faq',
+    path: '#faq',
     label: 'FAQ',
   },
 ];

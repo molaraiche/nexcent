@@ -6,4 +6,12 @@
   .btnStyle {
     @apply font-medium leading-5 text-sm flex items-center gap-2
   }
+
+  .nav {
+    @apply flex lg:flex-row md:flex-col sm:flex-col xsm:flex-col lg:static md:absolute sm:absolute xsm:absolute top-[10vh] right-0 lg:w-fit md:w-full sm:w-full xsm:w-full items-center lg:bg-opacity-0 md:bg-tint-5 sm:bg-tint-5 xsm:bg-tint-5 lg:text-base md:text-2xl sm:text-4xl xsm:text-4xl gap-[50px] py-4 transition-all
+  }
+
+  .authBtns {
+    @apply flex gap-[14px] lg:static md:absolute sm:absolute xsm:absolute top-[58vh] right-0 justify-center lg:w-fit md:w-full sm:w-full xsm:w-full lg:bg-opacity-0 md:bg-tint-5 sm:bg-tint-5 xsm:bg-tint-5 py-8 transition-all
+  }
 }
