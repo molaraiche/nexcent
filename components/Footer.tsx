@@ -43,7 +43,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className=' flex lg:flex-nowrap md:flex-wrap items-center justify-center gap-[30px] text-neutral-Silver w-full'>
+      <div className=' flex lg:flex-nowrap md:flex-wrap sm:flex-wrap xsm: flex-wrap items-center justify-center gap-[30px] text-neutral-Silver w-full'>
         <div className='flex justify-between w-full'>
           <div className='w-full '>
             <h1 className='text-xl text-neutral-white font-semibold'>
