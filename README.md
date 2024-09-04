@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nexcent- Landing page for managing communities
 
-## Getting Started
+## 🌐 Demo
 
-First, run the development server:
+Here is a working live demo: <https://molaraiche-nexcent.vercel.app//>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📝 Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Welcome to my project! Here, I'll provide you with a brief overview of what inspired me to create it, why it solves a problem, and what I've learned throughout its development.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Motivation: I was motivated to build this project to enhance my coding skills using tailwind css.
+- Why I Built This Project: My main goal was to create a practical and user-friendly landing page.
+- Problem Solved: This project aims to simplify applicaiton engagements, making it more efficient and accessible.
+- What I Learned: Throughout the development process, I gained valuable insights into working with the combanition of the techs im aiming to master: typescript,next js and tailwind css.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Setup Project
 
-## Learn More
+To get this project up and running in your development environment, follow these step-by-step instructions.
 
-To learn more about Next.js, take a look at the following resources:
+### 🍴 Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We need to install or make sure that these tools are pre-installed on your machine:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [NodeJS](https://nodejs.org/en/download/): It is a JavaScript runtime build.
+- [Git](https://git-scm.com/downloads): It is an open source version control system.
+- [NPM](https://docs.npmjs.com/getting-started/installing-node): It is a package manager for JavaScript.
 
-## Deploy on Vercel
+### 🚀 Install Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the Repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/molaraiche/nexcent.git
+   ```
+
+2. Navigate into the project directory
+
+   ```bash
+   cd nexcent
+   ```
+
+3. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+4. Start the application
+
+   ```bash
+   npm start
+   ```
+
+5. Open your web browser and navigate to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to see the project running.
+
+## ⚒️ How to Contribute
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'new additions'`)
+- Push to the branch (`git push origin new additions`)
+- Create a Pull Request
+
+### 📩 Bug / Feature Request
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/molaraiche/nexcent/issues/new) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/molaraiche/nexcent/issues/new). Please include sample queries and their corresponding results.
+
+## 📜 Credits
+
+I'd like to acknowledge my collaborators, who contributed to the success of this project. Below are there social links
+
+X: @itsmuntasirb
+
+## 📞 Contact Us
+
+- [molaraiche | Frontend Developer](https://www.molaraiche.com/)
