@@ -6,7 +6,7 @@ const Newsletter = () => {
     <div>
       <h1 className='text-lx font-semibold'>Stay up to date</h1>
       <form action=''>
-        <div className='flex items-center w-[255px] h-[40px] bg-[#0000000d]rounded-lg gap-4 mt-6'>
+        <div className='flex items-center lg:w-[255px] h-[40px] bg-[#0000000d]rounded-lg gap-4 mt-6'>
           <Input
             type='email'
             placeholder='Your email address'
