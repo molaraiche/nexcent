@@ -1,3 +1,4 @@
+import Hero from '@/components/Hero';
 import NavBar from '@/components/NavBar';
 import React from 'react';
 
@@ -6,6 +7,7 @@ const page = () => {
     <section className='bg-neutral-Silver'>
       <main className='lg:container lg:mx-auto md:px-14 sm:px-10 xsm:px-4'>
         <NavBar />
+        <Hero />
       </main>
     </section>
   );
