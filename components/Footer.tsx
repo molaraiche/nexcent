@@ -43,7 +43,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className=' flex gap-[30px] text-neutral-Silver'>
+      <div className=' flex lg:flex-row md:flex-row  justify-center sm:flex-col xsm:flex-col gap-[30px] text-neutral-Silver'>
         <div className=''>
           <h1 className='text-xl text-neutral-white font-semibold'>Company</h1>
           <div className='mt-6 flex flex-col gap-3'>
