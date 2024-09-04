@@ -11,7 +11,7 @@ const Community = () => {
         </h1>
         <p className='paragraph'>Who is Nextcent suitable for?</p>
       </div>
-      <div className='flex items-center justify-center flex-wrap mt-4'>
+      <div className='flex items-center justify-center lg:flex-nowrap md:flex-nowrap sm:flex-wrap xsm:flex-wrap mt-4'>
         {community.map((comm: communityType) => (
           <CommunityCard
             key={comm.id}

@@ -11,11 +11,11 @@ const MoreDetails = ({
   details: string;
 }) => {
   return (
-    <div className='flex items-center lg:justify-between md:justify-center sm:justify-center xsm:justify-center flex-wrap'>
+    <div className='flex items-center lg:justify-between md:justify-center sm:justify-center xsm:justify-center lg:flex-nowrap md:flex-wrap sm:flex-wrap xsm:flex-wrap'>
       <div className='lg:w-[442px] md:w-full sm:w-full xsm:w-full flex items-center justify-center'>
         <Image src={imgURL} alt='phone ill' width={442} height={433} />
       </div>
-      <div className='lg:w-[601px] md:w-full sm:w-full xsm:w-full'>
+      <div className='lg:w-[601px] md:w-full sm:w-full xsm:w-full lg:text-left md:text-center sm:text-center xsm:text-center'>
         <h1 className='title'>{title}</h1>
         <p className='paragraph mt-4'>{details}</p>
         <div className='lg:block md:flex md:justify-center md:items-center sm:flex sm:justify-center sm:items-center xsm:flex xsm:justify-center xsm:items-center'>

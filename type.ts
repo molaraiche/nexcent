@@ -16,3 +16,10 @@ export interface communityType {
   title: string;
   content: string;
 }
+
+export interface achievemntTypes {
+  id?: number;
+  icon: string;
+  title: string;
+  details: string;
+}
