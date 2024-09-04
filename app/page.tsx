@@ -7,6 +7,8 @@ import React from 'react';
 import Achievements from '@/components/Achievements';
 import Customers from '@/components/Customers';
 import Updates from '@/components/Updates';
+import Demo from '@/components/Demo';
+import Footer from '@/components/Footer';
 
 const page = () => {
   return (
@@ -45,6 +47,16 @@ const page = () => {
       </div>
       <div className='lg:container lg:mx-auto md:px-14 sm:px-10 xsm:px-4'>
         <Updates />
+      </div>
+      <div className='bg-neutral-Silver'>
+        <div className='lg:container lg:mx-auto md:px-14 sm:px-10 xsm:px-4'>
+          <Demo />
+        </div>
+      </div>
+      <div className='bg-neutral-black'>
+        <div className='lg:container lg:mx-auto md:px-14 sm:px-10 xsm:px-4'>
+          <Footer />
+        </div>
       </div>
     </main>
   );

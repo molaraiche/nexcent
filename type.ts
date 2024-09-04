@@ -28,3 +28,8 @@ export interface updatesType {
   imgURL: string;
   title: string;
 }
+export interface footerType {
+  id?: number;
+  label: string;
+  path: string;
+}
