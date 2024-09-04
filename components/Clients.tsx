@@ -1,8 +1,6 @@
 import { clients } from '@/constants/clients';
 import { clientsType } from '@/type';
-import { Component } from 'lucide-react';
 import Image from 'next/image';
-import React from 'react';
 
 const Clients = () => {
   return (
