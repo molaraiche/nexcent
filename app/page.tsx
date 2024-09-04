@@ -6,6 +6,7 @@ import NavBar from '@/components/NavBar';
 import React from 'react';
 import Achievements from '@/components/Achievements';
 import Customers from '@/components/Customers';
+import Updates from '@/components/Updates';
 
 const page = () => {
   return (
@@ -41,6 +42,9 @@ const page = () => {
         <div className='lg:container lg:mx-auto md:px-14 sm:px-10 xsm:px-4'>
           <Customers />
         </div>
+      </div>
+      <div className='lg:container lg:mx-auto md:px-14 sm:px-10 xsm:px-4'>
+        <Updates />
       </div>
     </main>
   );

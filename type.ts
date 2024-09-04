@@ -23,3 +23,8 @@ export interface achievemntTypes {
   title: string;
   details: string;
 }
+export interface updatesType {
+  id?: number;
+  imgURL: string;
+  title: string;
+}
