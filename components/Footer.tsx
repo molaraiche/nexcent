@@ -6,8 +6,8 @@ import Newsletter from './Newsletter';
 
 const Footer = () => {
   return (
-    <footer className='flex lg:flex-row md:flex-col sm:flex-col xsm:flex-col items-center justify-between min-h-[200px] p-16'>
-      <div className='flex flex-col gap-10'>
+    <footer className='flex lg:flex-row md:flex-col-reverse sm:flex-col-reverse xsm:flex-col-reverse items-center justify-between min-h-[200px] p-16'>
+      <div className='flex flex-col my-4 gap-10'>
         <Image
           src='./assets/dark-logo.svg'
           alt='nexcent logo'
@@ -43,28 +43,34 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className=' flex lg:flex-row md:flex-row items-center justify-center sm:flex-col xsm:flex-col gap-[30px] text-neutral-Silver'>
-        <div className=''>
-          <h1 className='text-xl text-neutral-white font-semibold'>Company</h1>
-          <div className='mt-6 flex flex-col gap-3'>
-            {company.map((c: footerType) => (
-              <Link href={c.path} key={c.id}>
-                {c.label}
-              </Link>
-            ))}
+      <div className=' flex lg:flex-nowrap md:flex-wrap items-center justify-center gap-[30px] text-neutral-Silver w-full'>
+        <div className='flex justify-between w-full'>
+          <div className='w-full '>
+            <h1 className='text-xl text-neutral-white font-semibold'>
+              Company
+            </h1>
+            <div className='mt-6 flex flex-col gap-3'>
+              {company.map((c: footerType) => (
+                <Link href={c.path} key={c.id}>
+                  {c.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className='w-full'>
+            <h1 className='text-xl text-neutral-white font-semibold'>
+              Support
+            </h1>
+            <div className='mt-6 flex flex-col gap-3'>
+              {support.map((s: footerType) => (
+                <Link href={s.path} key={s.id}>
+                  {s.label}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
-        <div className=''>
-          <h1 className='text-xl text-neutral-white font-semibold'>Support</h1>
-          <div className='mt-6 flex flex-col gap-3'>
-            {support.map((s: footerType) => (
-              <Link href={s.path} key={s.id}>
-                {s.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className=''>
+        <div className='w-full '>
           <Newsletter />
         </div>
       </div>
