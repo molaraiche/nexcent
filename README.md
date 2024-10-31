@@ -2,7 +2,7 @@
 
 ## 🌐 Demo
 
-Here is a working live demo: <https://molaraiche-nexcent.vercel.app//>
+Here is a working live demo: <https://nexcent.molaraiche.com/>
 
 ## 📝 Description
 
